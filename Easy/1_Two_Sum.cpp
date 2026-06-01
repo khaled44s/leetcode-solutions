@@ -30,7 +30,7 @@ public:
 int main() {
     Solution sol;
 
-    vector<int> nums = {2, 7, 11, 15};
+    vector<int> nums = {1, 7, 8, 15};
     int target = 9;
 
     vector<int> result = sol.twoSum(nums, target);
