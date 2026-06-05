@@ -1,6 +1,6 @@
 # LeetCode Journey
 
-Solved Problems: 8
+Solved Problems: 10
 
 ## Easy
 - [1] Two Sum
@@ -11,6 +11,8 @@ Solved Problems: 8
 - [13] Roman to Integer
 - [1047] Remove All Adjacent Duplicates in String
 - [290] Word Pattern
+- [1512] Number of Good Pairs
+- [496] Next Greater Element I
 
 ## Medium
 
