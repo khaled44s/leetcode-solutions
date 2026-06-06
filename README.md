@@ -1,6 +1,6 @@
 # LeetCode Journey
 
-Solved Problems: 10
+Solved Problems: 11
 
 ## Easy
 - [1] Two Sum
@@ -13,6 +13,7 @@ Solved Problems: 10
 - [290] Word Pattern
 - [1512] Number of Good Pairs
 - [496] Next Greater Element I
+- [414] Third Maximum Number
 
 ## Medium
 
