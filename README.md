@@ -1,6 +1,6 @@
 # LeetCode Journey
 
-Solved Problems: 11
+Solved Problems: 12
 
 ## Easy
 - [1] Two Sum
@@ -14,6 +14,7 @@ Solved Problems: 11
 - [1512] Number of Good Pairs
 - [496] Next Greater Element I
 - [414] Third Maximum Number
+- [346] Moving Average from Data Stream
 
 ## Medium
 
