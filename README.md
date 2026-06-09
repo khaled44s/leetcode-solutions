@@ -1,6 +1,6 @@
 # LeetCode Journey
 
-Solved Problems: 12
+Solved Problems: 14
 
 ## Easy
 - [1] Two Sum
@@ -15,6 +15,8 @@ Solved Problems: 12
 - [496] Next Greater Element I
 - [414] Third Maximum Number
 - [346] Moving Average from Data Stream
+- [104] Maximum Depth of Binary Tree
+- [226] Invert Binary Tree
 
 ## Medium
 
