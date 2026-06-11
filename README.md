@@ -1,6 +1,6 @@
 # LeetCode Journey
 
-Solved Problems: 14
+Solved Problems: 16
 
 ## Easy
 - [1] Two Sum
@@ -17,7 +17,9 @@ Solved Problems: 14
 - [346] Moving Average from Data Stream
 - [104] Maximum Depth of Binary Tree
 - [226] Invert Binary Tree
+- [191] Number of 1 bits
 
 ## Medium
+- [48] Rotate Image
 
 ## Hard
