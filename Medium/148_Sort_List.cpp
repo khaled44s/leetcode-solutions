@@ -1,0 +1,49 @@
+
+class Solution {
+private:
+    ListNode* merge(ListNode* leftSubList, ListNode* rightSubList) {
+        ListNode* dummyNode = new ListNode(0);
+        ListNode* currentNode = dummyNode;
+        while (leftSubList != nullptr && rightSubList != nullptr) {
+            if (leftSubList->val < rightSubList->val) {
+                currentNode->next = leftSubList;
+                leftSubList = leftSubList->next;
+            } else {
+                currentNode->next = rightSubList;
+                rightSubList = rightSubList->next;
+            }
+            currentNode = currentNode->next;
+        }
+
+        if (leftSubList != nullptr) {
+            currentNode->next = leftSubList;
+        }
+        if (rightSubList != nullptr) {
+            currentNode->next = rightSubList;
+        }
+
+        return dummyNode->next;
+    }
+public:
+    ListNode* sortList(ListNode* head) {
+        if (head == nullptr || head->next == nullptr) {
+            return head;
+        }
+
+        ListNode* fastPointer = head;
+        ListNode* slowPointer = head;
+        ListNode* prevPointer = head;
+
+        while (fastPointer != nullptr && fastPointer->next != nullptr) {
+            prevPointer = slowPointer;
+            slowPointer = slowPointer->next;
+            fastPointer = fastPointer->next->next;
+        }
+        prevPointer->next = nullptr;
+
+        ListNode* leftSubList = sortList(head);
+        ListNode* rightSubList = sortList(slowPointer);
+
+        return merge(leftSubList, rightSubList);
+    }
+};
